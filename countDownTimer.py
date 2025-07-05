@@ -9,8 +9,7 @@ def countdown():
         print('{:02d} : {:02d}'.format(mins,secs))
         time.sleep(1)
         t -= 1
-    #print(display)
-
+    #print(display) 
 now = datetime.now()
 print(now)
 cTime = now.strftime('%H : %M : %S')
